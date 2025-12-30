@@ -7,6 +7,7 @@ import deliveredicon from "../assets/images/icons/delivered-icon.PNG";
 import intransiticon from "../assets/images/icons/in-transit-icon.PNG";
 import pickedicon from "../assets/images/icons/picked-icon.PNG";
 
+
 // Define API base URL
 const apiBaseURL = "http://127.0.0.1:5000/api";
 
@@ -155,7 +156,7 @@ function DashboardPage() {
                         )}
                     </div>
                 </div>
-
+                
                 {/* Row 1 - User Details and Plan Details */}
                 <div className="flex flex-wrap pt-6 pb-24 px-12" >
                     {/* User Details Section */}
